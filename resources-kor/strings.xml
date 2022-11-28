@@ -1,0 +1,6 @@
+<strings>
+    <string id="AppName">AndroidTime</string>
+    <string id="label">Time+Temperature+GPS+Battery</string>
+    <string id="am">오\n전</string>
+    <string id="pm">오\n후</string>
+</strings>
