@@ -52,52 +52,52 @@ class AndroidTimeView extends WatchUi.DataField{
 				if ( fontHeight != 48 ) {
 	        		loc = [70,38, 7,5, 118,0, 50,8,24,20, 122,10,10,18,2, 1,36];
        			} else { //Edge 1040, 1040 solar
-       				loc = [70,40, 7,10, 118,0, 50,8,24,20, 122,10,10,18,2, 1,45];
+       				loc = [70,38, 7,10, 118,0, 50,8,24,20, 122,10,10,18,2, 1,43];
 				}
         		break;
         	case 282: //Edge 1030, 1030 plus
 				if ( fontHeight != 48 ) {
     	    		loc = [140,38, 77,5, 188,0, 120,8,24,20, 192,10,10,18,2, 1,36];
 				} else { //Edge 1040, 1040 solar
-		       		loc = [140,40, 77,10, 188,0, 120,8,24,20, 192,10,10,18,2, 1,45];
+		       		loc = [140,38, 77,10, 188,0, 120,8,24,20, 192,10,10,18,2, 1,43];
 				}
         		break;
         	case 119: //Edge 1000
 				if ( fontHeight != 48 ) {
-        			loc = [59,34, 5,5, 100,0, 42,7,20,16, 103,8,8,14,2, 1,33];
+        			loc = [59,38, 5,5, 100,0, 42,8,20,16, 103,9,8,14,2, 1,37];
 				} else { //Edge Explorer2
-					loc = [59,30, 5,6, 100,0, 42,7,20,16, 103,8,8,14,2, 1,36];
+					loc = [59,28, 5,6, 100,0, 40,9,20,16, 105,11,8,14,2, 1,34];
 				}
         		break;
         	case 240: //Edge 1000
 				if ( fontHeight != 48 ) {
-	        		loc = [120,34, 65,5, 160,0, 102,7,20,16, 163,8,8,14,2, 1,33];
+	        		loc = [120,38, 65,5, 160,0, 102,8,20,16, 163,9,8,14,2, 1,37];
 				} else { //Edge Explorer2
-					loc = [120,30, 65,6, 160,0, 102,7,20,16, 163,8,8,14,2, 1,36];
+					loc = [120,28, 65,6, 160,0, 100,9,20,16, 165,11,8,14,2, 1,34];
 				}
         		break;
         	case 114: //Edge 130
         	case 115: //Edge 130 plus
-       			loc = [57,25, 10,2, 105,0, 40,9,19,14, 99,11,8,12,1, 0,47];
+       			loc = [57,28, 10,2, 105,0, 38,9,19,14, 102,11,8,12,1, 0,51];
        			break;
         	case 230: //Edge 130 plus
-       			loc = [115,25, 68,2, 163,0, 98,9,19,14, 157,11,8,12,1, 0,47];
+       			loc = [115,28, 68,2, 163,0, 96,9,19,14, 160,11,8,12,1, 0,51];
        			break;
         	case 99: //Edge 520, 520 plus
-        		loc = [49,23, 4,2, 83,0, 35,5,16,12, 86,7,7,10,2, 1,23];
+        		loc = [49,24, 4,2, 83,0, 35,4,16,12, 86,6,7,10,2, 1,24];
         		fnt = [Graphics.FONT_NUMBER_MILD, Graphics.FONT_SMALL, Graphics.FONT_XTINY];
         		break;
         	case 200: //Edge 520, 520 plus
-        		loc = [100,23, 54,2, 133,0, 85,5,16,12, 136,7,7,10,2, 1,23];
+        		loc = [100,24, 54,2, 133,0, 85,4,16,12, 136,6,7,10,2, 1,24];
 	        	fnt = [Graphics.FONT_NUMBER_MILD, Graphics.FONT_SMALL, Graphics.FONT_XTINY];
         		break;
         	case 122: //Edge 530, 830
-        		loc = [61,26, 6,4, 102,0, 43,6,20,16, 106,8,8,14,2, 1,29];
-	        	fnt = [Graphics.FONT_NUMBER_MILD, Graphics.FONT_SMALL, Graphics.FONT_XTINY];
+        		loc = [61,24, 6,4, 102,0, 43,6,20,16, 106,8,8,14,2, 1,27];
+	        	fnt = [Graphics.FONT_NUMBER_MEDIUM, Graphics.FONT_SMALL, Graphics.FONT_XTINY];
         		break;
         	case 246: //Edge 530, 830
-        		loc = [123,26, 68,4, 164,0, 105,6,20,16, 168,8,8,14,2, 1,29];
-	        	fnt = [Graphics.FONT_NUMBER_MILD, Graphics.FONT_SMALL, Graphics.FONT_XTINY];
+        		loc = [123,24, 68,4, 164,0, 105,6,20,16, 168,8,8,14,2, 1,27];
+	        	fnt = [Graphics.FONT_NUMBER_MEDIUM, Graphics.FONT_SMALL, Graphics.FONT_XTINY];
         		break;
         	default :
         		loc = [70,38, 7,5, 118,0, 50,8,24,20, 122,10,10,18,2, 1,36];
