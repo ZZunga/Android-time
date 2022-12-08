@@ -1,7 +1,0 @@
-<strings>
-    <string id="AppName">AndroidTime</string>
-    <string id="label">Time+Temperature+GPS+Battery</string>
-	<string id="appVersion">1.0.0</string>
-    <string id="am">A\nM</string>
-    <string id="pm">P\nM</string>
-</strings>
