@@ -2,6 +2,7 @@ import Toybox.Application;
 import Toybox.Background;
 import Toybox.Time;
 
+(:background)
 class AndroidTimeApp extends Application.AppBase {
 
 	var dataField;
