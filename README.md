@@ -1,14 +1,14 @@
 # Android-time
 
-This data field displays the current time (12/24 hours), current temperature (C/F), GPS signal strength, and battery status (%). 
+이 데이터필드는 현재시간(12시간/24시간), 현재 온도(C/F), GPS 신호세기, 배터리상태(%)를 표시합니다. 
 
-- The current time is displayed as a 12-hour clock and a 24-hour clock depending on the device settings or app settings.
-- Temperature unit It is also displayed in Celsius temperature (C) and Fahrenheit temperature (F) units depending on the device settings or app settings.
+- 현재시간은 기기설정 및 앱설정에 따라 12시간제와 24시간제로 표시됩니다.
+- 온도단위 또한 기기설정 또는 앱 설정에 따라 섭씨온도(C)와 화씨온도(F) 단위로 표시됩니다.
 
-- The current temperature is programmed to be updated every 5 minutes by a background task.
-- GPS signal strength can be checked in 3D if there are 3~4 vertical lines, and 2 lines can be recognized in 2D. 
-  In 1 square, only the last position is verified.
-  To reduce errors in saving records, please check the GPS status before starting a ride recording.
-- The battery icon is red when the capacity is less than 15%, yellow when it is less than 30%, and green otherwise.
+- 현재온도는 백그라운드 작업으로 수행하여 5분마다 업데이트 되도록 프로그램 되어 있습니다.
+- GPS 신호세기는 세로줄이 3~4칸일 경우 3D로 위치를 확인 가능한 상태이며, 2칸은 2D로 인식가능한 상태입니다. 
+1칸은 마지막 위치만 확인 된 상태 입니다.
+기록 저장 오류를 줄이기 위해서는 라이딩 기록을 시작하기 전 GPS 상태를 확인한 이후에 하시기 바랍니다.
+- 배터리 아이콘은 용량이 15% 미만일 경우 빨간색, 30% 미만일 경우 노란색, 그 이외에는 초록색으로 표시됩니다.
 
 ![image](https://user-images.githubusercontent.com/116134685/210191922-198f8aa5-1824-4ad6-bf39-c2437959e48d.png)
