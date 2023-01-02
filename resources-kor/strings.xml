@@ -4,4 +4,12 @@
 	<string id="appVersion">버전정보</string>
     <string id="am">오\n전</string>
     <string id="pm">오\n후</string>
+    <string id="hr24_title">표시할 시간제를 선택하세요</string>
+    <string id="hr24_System">시스템 설정에 따름</string>
+    <string id="hr24_12">12 시간</string>
+    <string id="hr24_24">24 시간</string>
+    <string id="unitMetric_title">표시할 온도 단위를 선택하세요</string>
+    <string id="unit_System">시스템 설정에 따름</string>
+    <string id="unit_Metric">섭씨온도(C)</string>
+    <string id="unit_Statute">화씨온도(F)</string>
 </strings>

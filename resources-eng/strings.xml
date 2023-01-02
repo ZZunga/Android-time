@@ -4,4 +4,12 @@
 	<string id="appVersion">App. Version</string>
     <string id="am">A\nM</string>
     <string id="pm">P\nM</string>
+    <string id="hr24_title">Choose which Clock type to display</string>
+    <string id="hr24_System">System setting</string>
+    <string id="hr24_12">12 hour</string>
+    <string id="hr24_24">24 hour</string>
+    <string id="unitMetric_title">Choose which Temp. unit to display</string>
+    <string id="unit_System">System setting</string>
+    <string id="unit_Metric">Celsius(C)</string>
+    <string id="unit_Statute">Fahrenheit(F)</string>
 </strings>

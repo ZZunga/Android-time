@@ -4,7 +4,7 @@ import Toybox.Time;
 
 class AndroidTimeApp extends Application.AppBase {
 
-	var _field;
+	var dataField;
 	
     function initialize() {
         AppBase.initialize();
@@ -18,18 +18,16 @@ class AndroidTimeApp extends Application.AppBase {
 
     //! Return the initial view of your application here
     function getInitialView() {
-    	_field = new AndroidTimeView();
+    	dataField = new AndroidTimeView();
     	if (System has :ServiceDelegate) {
-    		// Read temperature sensor every 5 minutes
-    		// Background event period cannot be less than 5 minutes
+    		// 5분마다 센서 온도 읽기
+    		// 백그라운드 작업은 5분보다 작을 수 없음.
     		Background.registerForTemporalEvent(new Time.Duration(5 * 60)); 
-   		} else {
-   		//	System.println("****background not available on this device****");
    		}
-        return [ _field ];
+        return [ dataField ];
     }
 
-    // value provided by the tempServiceDelegate
+    // tempServiceDelegate 권한대행를 통해서 온도값 저장
     function onBackgroundData(temperature) {
         if (temperature != null) {
             Storage.setValue("sensorTemp", temperature);
@@ -40,8 +38,9 @@ class AndroidTimeApp extends Application.AppBase {
 		return [new tempServiceDelegate()];
 	}
 
+	// 세팅 변경되었으면 화면 업데이트
 	function onSettingsChanged() {
-		_field.getLOC();
-		WatchUi.requestUpdate();
+		dataField.initVariables();
+		dataField.getLOC();
 	}
 }

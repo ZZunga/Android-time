@@ -1,12 +1,31 @@
 <resources>
 
     <properties>
-        <property id="appVersion" type="string">1.0.9</property>
+        <property id="appVersion" type="string">1.1.5</property>
+        <property id="hr24" type ="number">0</property>
+        <property id="unitMetric" type ="number">0</property>
     </properties>
 
     <settings>
 		<setting propertyKey="@Properties.appVersion" title="@Strings.appVersion">
 			<settingConfig type="alphaNumeric" readonly="true" />
 		</setting>
+
+        <setting propertyKey="@Properties.hr24" title="@Strings.hr24_title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.hr24_System</listEntry>
+                <listEntry value="1">@Strings.hr24_12</listEntry>
+                <listEntry value="2">@Strings.hr24_24</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.unitMetric" title="@Strings.unitMetric_title">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.unit_System</listEntry>
+                <listEntry value="1">@Strings.unit_Metric</listEntry>
+                <listEntry value="2">@Strings.unit_Statute</listEntry>
+            </settingConfig>
+        </setting>
 	</settings>>
+
 </resources>
