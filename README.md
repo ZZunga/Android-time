@@ -10,5 +10,5 @@ This data field displays the current time (12/24 hours), current temperature (C/
   In 1 square, only the last position is verified.
   To reduce errors in saving records, please check the GPS status before starting a ride recording.
 - The battery icon is red when the capacity is less than 15%, yellow when it is less than 30%, and green otherwise.
-- 
+
 ![image](https://user-images.githubusercontent.com/116134685/210191922-198f8aa5-1824-4ad6-bf39-c2437959e48d.png)
