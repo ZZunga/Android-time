@@ -11,4 +11,4 @@
 기록 저장 오류를 줄이기 위해서는 라이딩 기록을 시작하기 전 GPS 상태를 확인한 이후에 하시기 바랍니다.
 - 배터리 아이콘은 용량이 15% 미만일 경우 빨간색, 30% 미만일 경우 노란색, 그 이외에는 초록색으로 표시됩니다.
 
-![image](https://user-images.githubusercontent.com/116134685/210191922-198f8aa5-1824-4ad6-bf39-c2437959e48d.png)
+![image](https://user-images.githubusercontent.com/116134685/210192102-ea3d5091-c4d8-40fa-aea3-8092421d3974.png)
