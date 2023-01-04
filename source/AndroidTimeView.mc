@@ -184,7 +184,7 @@ class AndroidTimeView extends WatchUi.DataField{
 		var temperature = Application.Storage.getValue("sensorTemp");
 		if (temperature != null) {
 			if (tempUnit.equals("F")) {
-				temperature = (temperature * 1.8) + 32.0;
+				temperature = (temperature * 1.8) + 32;
 			}
 			text = temperature.format("%d");
 			// 온도 표시
