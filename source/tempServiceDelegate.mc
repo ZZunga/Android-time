@@ -9,7 +9,7 @@ class tempServiceDelegate extends System.ServiceDelegate {
 		ServiceDelegate.initialize();
 	}
 
-	function onTemporalEvent() {
+	function onTemporalEvent() as Void {
 		var senInfo = Sensor.getInfo();
 		if (senInfo has :temperature && senInfo.temperature != null) {
 			Background.exit(senInfo.temperature);

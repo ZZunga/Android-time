@@ -1,67 +1,67 @@
-[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 1; ]
+[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 1; ]
 import Toybox.Graphics;
-[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 2; ]
+[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 2; ]
 import Toybox.Lang;
-[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 3; ]
+[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 3; ]
 import Toybox.Position;
-[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 4; ]
+[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 4; ]
 import Toybox.Sensor;
-[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 5; ]
+[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 5; ]
 import Toybox.SensorHistory;
-[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 6; ]
+[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 6; ]
 import Toybox.System;
-[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 7; ]
+[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 7; ]
 import Toybox.WatchUi;
-[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 9; ]
+[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 9; ]
 class AndroidTimeView extends WatchUi.DataField{
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 9; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 9; ]
     <init> {
     }
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 9; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 9; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 11; @position = 12; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 11; @position = 12; ]
     protected
     var loc as Array or Null;
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 12; @position = 12; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 12; @position = 12; ]
     protected
     var fnt as Array or Null;
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 14; @position = 12; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 14; @position = 12; ]
     protected
     var tempUnit as String or Null;
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 15; @position = 12; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 15; @position = 12; ]
     protected
     var is24hr as Boolean or Null;
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 17; @position = 5; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 17; @position = 5; ]
     var width as Number or Null;
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 18; @position = 5; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 18; @position = 5; ]
     var fontHeight as Number or Null;
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 20; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 20; ]
     function initialize() as Void {
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_20_23_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 21 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_20_23_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 21 2 ]
         %tmp.2 = getv ? :DataField;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 22 2 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 22 2 ]
         %tmp.4 = self;
         %tmp.5 = getv function %tmp.4 :initVariables;
         invoke %tmp.4 %tmp.5();
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_20_23_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_20_23_stop:
     }
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 26; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 26; ]
     function initVariables() {
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 27 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_stop" ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 27 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_stop" ]
         %settings.1 = local;
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getDeviceSettings;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %settings.1 %tmp.3;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 28 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 28 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_stop" ]
         %unitMetric.2 = local;
         %tmp.5 = getv ? :Application;
         %tmp.6 = getv %tmp.5 :Properties;
@@ -70,61 +70,61 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26
         %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
         %tmp.10 = as %tmp.9 Number or Null;
         lputv %unitMetric.2 %tmp.10;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 29 2 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 29 2 ]
         %tmp.12 = lgetv %unitMetric.2;
         push %tmp.12;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29_2_switchCaseBegin:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29_2_switchCaseBegin:
         %tmp.13 = dup %tmp.12;
         %tmp.14 = 1;
         %tmp.15 = getv function %tmp.13 :equals;
         %tmp.16 = invoke %tmp.13 %tmp.15 (%tmp.14);
-        bt %tmp.16 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_30_2;
+        bt %tmp.16 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_30_2;
         %tmp.17 = dup %tmp.12;
         %tmp.18 = 2;
         %tmp.19 = getv function %tmp.17 :equals;
         %tmp.20 = invoke %tmp.17 %tmp.19 (%tmp.18);
-        bt %tmp.20 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_33_2;
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29_2_defaultCodeBegin;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_30_2:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 31 3 ]
+        bt %tmp.20 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_33_2;
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29_2_defaultCodeBegin;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_30_2:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 31 3 ]
         %tmp.21 = "C";
         putv self :tempUnit %tmp.21;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 32 3 ]
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29_2_switchCaseEnd;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_33_2:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 34 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 32 3 ]
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29_2_switchCaseEnd;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_33_2:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 34 3 ]
         %tmp.22 = "F";
         putv self :tempUnit %tmp.22;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 35 3 ]
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29_2_switchCaseEnd;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_36_2:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29_2_defaultCodeBegin:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 37 3 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_3_if_stmt:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 35 3 ]
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29_2_switchCaseEnd;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_36_2:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29_2_defaultCodeBegin:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 37 3 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_3_if_stmt:
         %tmp.23 = lgetv %settings.1;
         %tmp.24 = getv %tmp.23 :temperatureUnits;
         %tmp.25 = getm $.Toybox.System;
         %tmp.26 = getv %tmp.25 :UNIT_STATUTE;
         %tmp.27 = eq %tmp.24 %tmp.26;
-        bf %tmp.27 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_3_if_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_3_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_57_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 38 4 ]
+        bf %tmp.27 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_3_if_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_3_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_57_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 38 4 ]
         %tmp.28 = "F";
         putv self :tempUnit %tmp.28;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_57_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_3_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_3_if_false:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_39_10_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 40 4 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_57_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_3_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_3_if_false:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_39_10_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 40 4 ]
         %tmp.29 = "C";
         putv self :tempUnit %tmp.29;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_39_10_stop:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_3_if_end:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29_2_switchCaseEnd:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_39_10_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_37_3_if_end:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29_2_switchCaseEnd:
         pop;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 43 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 43 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_stop" ]
         %hr24.3 = local;
         %tmp.31 = getv ? :Application;
         %tmp.32 = getv %tmp.31 :Properties;
@@ -132,68 +132,68 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29
         %tmp.34 = "hr24";
         %tmp.35 = invoke %tmp.32 %tmp.33(%tmp.34);
         lputv %hr24.3 %tmp.35;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 44 2 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 44 2 ]
         %tmp.37 = lgetv %hr24.3;
         push %tmp.37;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_44_2_switchCaseBegin:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_44_2_switchCaseBegin:
         %tmp.38 = dup %tmp.37;
         %tmp.39 = 1;
         %tmp.40 = getv function %tmp.38 :equals;
         %tmp.41 = invoke %tmp.38 %tmp.40 (%tmp.39);
-        bt %tmp.41 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_45_2;
+        bt %tmp.41 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_45_2;
         %tmp.42 = dup %tmp.37;
         %tmp.43 = 2;
         %tmp.44 = getv function %tmp.42 :equals;
         %tmp.45 = invoke %tmp.42 %tmp.44 (%tmp.43);
-        bt %tmp.45 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_48_2;
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_44_2_defaultCodeBegin;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_45_2:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 46 3 ]
+        bt %tmp.45 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_48_2;
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_44_2_defaultCodeBegin;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_45_2:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 46 3 ]
         %tmp.46 = false;
         putv self :is24hr %tmp.46;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 47 3 ]
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_44_2_switchCaseEnd;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_48_2:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 49 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 47 3 ]
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_44_2_switchCaseEnd;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_48_2:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 49 3 ]
         %tmp.47 = true;
         putv self :is24hr %tmp.47;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 50 3 ]
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_44_2_switchCaseEnd;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_51_2:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_44_2_defaultCodeBegin:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 52 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 50 3 ]
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_44_2_switchCaseEnd;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_51_2:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_44_2_defaultCodeBegin:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 52 3 ]
         %tmp.48 = lgetv %settings.1;
         %tmp.49 = getv %tmp.48 :is24Hour;
         putv self :is24hr %tmp.49;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_44_2_switchCaseEnd:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_44_2_switchCaseEnd:
         pop;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_26_26_stop:
     }
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 57; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 57; ]
     function onLayout(dc as Dc) as Void {
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_57_37_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 58 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_57_37_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 58 2 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :getWidth;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         putv self :width %tmp.3;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 59 2 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 59 2 ]
         %tmp.4 = lgetv %dc;
         %tmp.5 = getv function %tmp.4 :getFontHeight;
         %tmp.6 = getm $.Toybox.Graphics;
         %tmp.7 = getv %tmp.6 :FONT_NUMBER_MEDIUM;
         %tmp.8 = invoke %tmp.4 %tmp.5(%tmp.7);
         putv self :fontHeight %tmp.8;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 60 2 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 60 2 ]
         %tmp.9 = self;
         %tmp.10 = getv function %tmp.9 :getLOC;
         invoke %tmp.9 %tmp.10();
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_57_37_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_57_37_stop:
     }
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 63; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 63; ]
     function getLOC() as Void {
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_63_27_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 65 5 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_63_27_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 65 5 ]
         %tmp.1 = newa 3;
         %tmp.2 = getm $.Toybox.Graphics;
         %tmp.3 = getv %tmp.2 :FONT_NUMBER_MEDIUM;
@@ -208,76 +208,76 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_63
         %tmp.12 = dup %tmp.9;
         %tmp.13 = aputv %tmp.12 2 %tmp.11;
         putv self :fnt %tmp.13;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 67 8 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 67 8 ]
         %tmp.15 = getv ? :width;
         push %tmp.15;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseBegin:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseBegin:
         %tmp.16 = dup %tmp.15;
         %tmp.17 = 140;
         %tmp.18 = getv function %tmp.16 :equals;
         %tmp.19 = invoke %tmp.16 %tmp.18 (%tmp.17);
-        bt %tmp.19 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_72_9;
+        bt %tmp.19 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_72_9;
         %tmp.20 = dup %tmp.15;
         %tmp.21 = 282;
         %tmp.22 = getv function %tmp.20 :equals;
         %tmp.23 = invoke %tmp.20 %tmp.22 (%tmp.21);
-        bt %tmp.23 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_79_9;
+        bt %tmp.23 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_79_9;
         %tmp.24 = dup %tmp.15;
         %tmp.25 = 119;
         %tmp.26 = getv function %tmp.24 :equals;
         %tmp.27 = invoke %tmp.24 %tmp.26 (%tmp.25);
-        bt %tmp.27 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_86_9;
+        bt %tmp.27 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_86_9;
         %tmp.28 = dup %tmp.15;
         %tmp.29 = 240;
         %tmp.30 = getv function %tmp.28 :equals;
         %tmp.31 = invoke %tmp.28 %tmp.30 (%tmp.29);
-        bt %tmp.31 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_93_9;
+        bt %tmp.31 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_93_9;
         %tmp.32 = dup %tmp.15;
         %tmp.33 = 114;
         %tmp.34 = getv function %tmp.32 :equals;
         %tmp.35 = invoke %tmp.32 %tmp.34 (%tmp.33);
-        bt %tmp.35 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_100_9;
+        bt %tmp.35 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_100_9;
         %tmp.36 = dup %tmp.15;
         %tmp.37 = 115;
         %tmp.38 = getv function %tmp.36 :equals;
         %tmp.39 = invoke %tmp.36 %tmp.38 (%tmp.37);
-        bt %tmp.39 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_101_9;
+        bt %tmp.39 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_101_9;
         %tmp.40 = dup %tmp.15;
         %tmp.41 = 230;
         %tmp.42 = getv function %tmp.40 :equals;
         %tmp.43 = invoke %tmp.40 %tmp.42 (%tmp.41);
-        bt %tmp.43 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_104_9;
+        bt %tmp.43 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_104_9;
         %tmp.44 = dup %tmp.15;
         %tmp.45 = 99;
         %tmp.46 = getv function %tmp.44 :equals;
         %tmp.47 = invoke %tmp.44 %tmp.46 (%tmp.45);
-        bt %tmp.47 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_107_9;
+        bt %tmp.47 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_107_9;
         %tmp.48 = dup %tmp.15;
         %tmp.49 = 200;
         %tmp.50 = getv function %tmp.48 :equals;
         %tmp.51 = invoke %tmp.48 %tmp.50 (%tmp.49);
-        bt %tmp.51 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_111_9;
+        bt %tmp.51 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_111_9;
         %tmp.52 = dup %tmp.15;
         %tmp.53 = 122;
         %tmp.54 = getv function %tmp.52 :equals;
         %tmp.55 = invoke %tmp.52 %tmp.54 (%tmp.53);
-        bt %tmp.55 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_115_9;
+        bt %tmp.55 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_115_9;
         %tmp.56 = dup %tmp.15;
         %tmp.57 = 246;
         %tmp.58 = getv function %tmp.56 :equals;
         %tmp.59 = invoke %tmp.56 %tmp.58 (%tmp.57);
-        bt %tmp.59 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_119_9;
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_defaultCodeBegin;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_72_9:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 73 4 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_4_if_stmt:
+        bt %tmp.59 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_119_9;
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_defaultCodeBegin;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_72_9:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 73 4 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_4_if_stmt:
         %tmp.61 = getv ? :fontHeight;
         %tmp.62 = 48;
         %tmp.63 = ne %tmp.61 %tmp.62;
-        bf %tmp.63 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_4_if_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_4_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_28_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 74 11 ]
+        bf %tmp.63 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_4_if_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_4_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_28_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 74 11 ]
         %tmp.64 = newa 17;
         %tmp.65 = 70;
         %tmp.66 = dup %tmp.64;
@@ -331,11 +331,11 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73
         %tmp.114 = dup %tmp.112;
         %tmp.115 = aputv %tmp.114 16 %tmp.113;
         putv self :loc %tmp.115;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_28_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_4_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_4_if_false:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_75_17_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 76 11 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_28_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_4_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_4_if_false:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_75_17_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 76 11 ]
         %tmp.116 = newa 17;
         %tmp.117 = 70;
         %tmp.118 = dup %tmp.116;
@@ -389,20 +389,20 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_75
         %tmp.166 = dup %tmp.164;
         %tmp.167 = aputv %tmp.166 16 %tmp.165;
         putv self :loc %tmp.167;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_75_17_stop:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_4_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 78 10 ]
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_79_9:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 80 4 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_4_if_stmt:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_75_17_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_73_4_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 78 10 ]
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_79_9:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 80 4 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_4_if_stmt:
         %tmp.169 = getv ? :fontHeight;
         %tmp.170 = 48;
         %tmp.171 = ne %tmp.169 %tmp.170;
-        bf %tmp.171 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_4_if_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_4_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_28_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 81 11 ]
+        bf %tmp.171 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_4_if_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_4_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_28_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 81 11 ]
         %tmp.172 = newa 17;
         %tmp.173 = 140;
         %tmp.174 = dup %tmp.172;
@@ -456,11 +456,11 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80
         %tmp.222 = dup %tmp.220;
         %tmp.223 = aputv %tmp.222 16 %tmp.221;
         putv self :loc %tmp.223;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_28_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_4_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_4_if_false:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_82_11_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 83 11 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_28_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_4_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_4_if_false:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_82_11_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 83 11 ]
         %tmp.224 = newa 17;
         %tmp.225 = 140;
         %tmp.226 = dup %tmp.224;
@@ -514,20 +514,20 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_82
         %tmp.274 = dup %tmp.272;
         %tmp.275 = aputv %tmp.274 16 %tmp.273;
         putv self :loc %tmp.275;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_82_11_stop:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_4_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 85 10 ]
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_86_9:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 87 4 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_4_if_stmt:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_82_11_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_80_4_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 85 10 ]
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_86_9:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 87 4 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_4_if_stmt:
         %tmp.277 = getv ? :fontHeight;
         %tmp.278 = 48;
         %tmp.279 = ne %tmp.277 %tmp.278;
-        bf %tmp.279 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_4_if_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_4_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_28_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 88 11 ]
+        bf %tmp.279 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_4_if_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_4_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_28_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 88 11 ]
         %tmp.280 = newa 17;
         %tmp.281 = 59;
         %tmp.282 = dup %tmp.280;
@@ -581,11 +581,11 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87
         %tmp.330 = dup %tmp.328;
         %tmp.331 = aputv %tmp.330 16 %tmp.329;
         putv self :loc %tmp.331;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_28_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_4_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_4_if_false:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_89_11_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 90 5 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_28_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_4_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_4_if_false:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_89_11_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 90 5 ]
         %tmp.332 = newa 17;
         %tmp.333 = 59;
         %tmp.334 = dup %tmp.332;
@@ -639,20 +639,20 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_89
         %tmp.382 = dup %tmp.380;
         %tmp.383 = aputv %tmp.382 16 %tmp.381;
         putv self :loc %tmp.383;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_89_11_stop:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_4_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 92 10 ]
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_93_9:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 94 4 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_4_if_stmt:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_89_11_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_87_4_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 92 10 ]
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_93_9:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 94 4 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_4_if_stmt:
         %tmp.385 = getv ? :fontHeight;
         %tmp.386 = 48;
         %tmp.387 = ne %tmp.385 %tmp.386;
-        bf %tmp.387 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_4_if_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_4_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_28_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 95 11 ]
+        bf %tmp.387 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_4_if_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_4_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_28_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 95 11 ]
         %tmp.388 = newa 17;
         %tmp.389 = 120;
         %tmp.390 = dup %tmp.388;
@@ -706,11 +706,11 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94
         %tmp.438 = dup %tmp.436;
         %tmp.439 = aputv %tmp.438 16 %tmp.437;
         putv self :loc %tmp.439;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_28_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_4_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_4_if_false:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_96_11_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 97 5 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_28_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_4_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_4_if_false:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_96_11_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 97 5 ]
         %tmp.440 = newa 17;
         %tmp.441 = 120;
         %tmp.442 = dup %tmp.440;
@@ -764,13 +764,13 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_96
         %tmp.490 = dup %tmp.488;
         %tmp.491 = aputv %tmp.490 16 %tmp.489;
         putv self :loc %tmp.491;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_96_11_stop:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_4_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 99 10 ]
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_100_9:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_101_9:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 102 10 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_96_11_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_94_4_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 99 10 ]
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_100_9:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_101_9:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 102 10 ]
         %tmp.492 = newa 17;
         %tmp.493 = 57;
         %tmp.494 = dup %tmp.492;
@@ -824,10 +824,10 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_10
         %tmp.542 = dup %tmp.540;
         %tmp.543 = aputv %tmp.542 16 %tmp.541;
         putv self :loc %tmp.543;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 103 10 ]
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_104_9:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 105 10 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 103 10 ]
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_104_9:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 105 10 ]
         %tmp.544 = newa 17;
         %tmp.545 = 115;
         %tmp.546 = dup %tmp.544;
@@ -881,10 +881,10 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_10
         %tmp.594 = dup %tmp.592;
         %tmp.595 = aputv %tmp.594 16 %tmp.593;
         putv self :loc %tmp.595;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 106 10 ]
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_107_9:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 108 10 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 106 10 ]
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_107_9:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 108 10 ]
         %tmp.596 = newa 17;
         %tmp.597 = 49;
         %tmp.598 = dup %tmp.596;
@@ -938,7 +938,7 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_10
         %tmp.646 = dup %tmp.644;
         %tmp.647 = aputv %tmp.646 16 %tmp.645;
         putv self :loc %tmp.647;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 109 10 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 109 10 ]
         %tmp.648 = newa 3;
         %tmp.649 = getm $.Toybox.Graphics;
         %tmp.650 = getv %tmp.649 :FONT_NUMBER_MILD;
@@ -953,10 +953,10 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_10
         %tmp.659 = dup %tmp.656;
         %tmp.660 = aputv %tmp.659 2 %tmp.658;
         putv self :fnt %tmp.660;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 110 10 ]
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_111_9:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 112 10 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 110 10 ]
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_111_9:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 112 10 ]
         %tmp.661 = newa 17;
         %tmp.662 = 100;
         %tmp.663 = dup %tmp.661;
@@ -1010,7 +1010,7 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_11
         %tmp.711 = dup %tmp.709;
         %tmp.712 = aputv %tmp.711 16 %tmp.710;
         putv self :loc %tmp.712;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 113 10 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 113 10 ]
         %tmp.713 = newa 3;
         %tmp.714 = getm $.Toybox.Graphics;
         %tmp.715 = getv %tmp.714 :FONT_NUMBER_MILD;
@@ -1025,10 +1025,10 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_11
         %tmp.724 = dup %tmp.721;
         %tmp.725 = aputv %tmp.724 2 %tmp.723;
         putv self :fnt %tmp.725;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 114 10 ]
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_115_9:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 116 10 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 114 10 ]
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_115_9:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 116 10 ]
         %tmp.726 = newa 17;
         %tmp.727 = 61;
         %tmp.728 = dup %tmp.726;
@@ -1082,7 +1082,7 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_11
         %tmp.776 = dup %tmp.774;
         %tmp.777 = aputv %tmp.776 16 %tmp.775;
         putv self :loc %tmp.777;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 117 10 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 117 10 ]
         %tmp.778 = newa 3;
         %tmp.779 = getm $.Toybox.Graphics;
         %tmp.780 = getv %tmp.779 :FONT_NUMBER_MEDIUM;
@@ -1097,10 +1097,10 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_11
         %tmp.789 = dup %tmp.786;
         %tmp.790 = aputv %tmp.789 2 %tmp.788;
         putv self :fnt %tmp.790;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 118 10 ]
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_119_9:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 120 10 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 118 10 ]
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_119_9:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 120 10 ]
         %tmp.791 = newa 17;
         %tmp.792 = 123;
         %tmp.793 = dup %tmp.791;
@@ -1154,7 +1154,7 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_11
         %tmp.841 = dup %tmp.839;
         %tmp.842 = aputv %tmp.841 16 %tmp.840;
         putv self :loc %tmp.842;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 121 10 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 121 10 ]
         %tmp.843 = newa 3;
         %tmp.844 = getm $.Toybox.Graphics;
         %tmp.845 = getv %tmp.844 :FONT_NUMBER_MEDIUM;
@@ -1169,11 +1169,11 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_11
         %tmp.854 = dup %tmp.851;
         %tmp.855 = aputv %tmp.854 2 %tmp.853;
         putv self :fnt %tmp.855;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 122 10 ]
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_123_9:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_defaultCodeBegin:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 124 10 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 122 10 ]
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_123_9:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_defaultCodeBegin:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 124 10 ]
         %tmp.856 = newa 17;
         %tmp.857 = 70;
         %tmp.858 = dup %tmp.856;
@@ -1227,48 +1227,48 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67
         %tmp.906 = dup %tmp.904;
         %tmp.907 = aputv %tmp.906 16 %tmp.905;
         putv self :loc %tmp.907;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_67_8_switchCaseEnd:
         pop;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_63_27_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_63_27_stop:
     }
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 129; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 129; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 132 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_stop" ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 132 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_stop" ]
         %backgroundColor.1 = local;
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :getBackgroundColor;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %backgroundColor.1 %tmp.3;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 134 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 134 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_stop" ]
         %txtColor.2 = local;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 135 2 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_2_if_stmt:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 135 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_2_if_stmt:
         %tmp.5 = lgetv %backgroundColor.1;
         %tmp.6 = getm $.Toybox.Graphics;
         %tmp.7 = getv %tmp.6 :COLOR_BLACK;
         %tmp.8 = eq %tmp.5 %tmp.7;
-        bf %tmp.8 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_2_if_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_2_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_47_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 136 3 ]
+        bf %tmp.8 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_2_if_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_2_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_47_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 136 3 ]
         %tmp.9 = getm $.Toybox.Graphics;
         %tmp.10 = getv %tmp.9 :COLOR_WHITE;
         lputv %txtColor.2 %tmp.10;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_47_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_2_if_false:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_137_9_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 138 3 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_47_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_2_if_false:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_137_9_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 138 3 ]
         %tmp.11 = getm $.Toybox.Graphics;
         %tmp.12 = getv %tmp.11 :COLOR_BLACK;
         lputv %txtColor.2 %tmp.12;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_137_9_stop:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_2_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 140 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_stop" ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_137_9_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_135_2_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 140 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_stop" ]
         %colors.3 = local;
         %tmp.13 = newd 2;
         %tmp.15 = const :background;
@@ -1280,7 +1280,7 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_13
         %tmp.24 = dup %tmp.19;
         %tmp.25 = aputv %tmp.24 %tmp.21 %tmp.23;
         lputv %colors.3 %tmp.25;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 146 2 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 146 2 ]
         %tmp.26 = lgetv %dc;
         %tmp.27 = getv function %tmp.26 :setColor;
         %tmp.29 = lgetv %colors.3;
@@ -1290,18 +1290,18 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_13
         %tmp.36 = const :background;
         %tmp.37 = agetv %tmp.34 %tmp.36;
         invoke %tmp.26 %tmp.27(%tmp.32, %tmp.37);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 147 2 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 147 2 ]
         %tmp.38 = lgetv %dc;
         %tmp.39 = getv function %tmp.38 :clear;
         invoke %tmp.38 %tmp.39();
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 150 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 150 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_stop" ]
         %clockTime.4 = local;
         %tmp.40 = getm $.Toybox.System;
         %tmp.41 = getv function %tmp.40 :getClockTime;
         %tmp.42 = invoke %tmp.40 %tmp.41();
         lputv %clockTime.4 %tmp.42;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 152 2 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 152 2 ]
         %tmp.43 = lgetv %dc;
         %tmp.44 = getv function %tmp.43 :setColor;
         %tmp.46 = lgetv %colors.3;
@@ -1310,16 +1310,16 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_13
         %tmp.50 = 1;
         %tmp.51 = sub 0 %tmp.50;
         invoke %tmp.43 %tmp.44(%tmp.49, %tmp.51);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 155 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 155 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_stop" ]
         %text.5 = local;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 157 2 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_2_if_stmt:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 157 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_2_if_stmt:
         %tmp.53 = getv ? :is24hr;
-        bf %tmp.53 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_2_if_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_2_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_14_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 158 3 ]
+        bf %tmp.53 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_2_if_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_2_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_14_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 158 3 ]
         %tmp.54 = getm $.Toybox.Lang;
         %tmp.55 = getv function %tmp.54 :format;
         %tmp.56 = "$1$:$2$";
@@ -1337,7 +1337,7 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_15
         %tmp.68 = aputv %tmp.67 1 %tmp.66;
         %tmp.69 = invoke %tmp.54 %tmp.55(%tmp.56, %tmp.68);
         lputv %text.5 %tmp.69;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 160 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 160 3 ]
         %tmp.70 = lgetv %dc;
         %tmp.71 = getv function %tmp.70 :drawText;
         %tmp.73 = getv ? :loc;
@@ -1353,11 +1353,11 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_15
         %tmp.86 = getm $.Toybox.Graphics;
         %tmp.87 = getv %tmp.86 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.70 %tmp.71(%tmp.75, %tmp.79, %tmp.83, %tmp.85, %tmp.87);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_14_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_2_if_false:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 163 3 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_14_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_2_if_false:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 163 3 ]
         %tmp.88 = getm $.Toybox.Lang;
         %tmp.89 = getv function %tmp.88 :format;
         %tmp.90 = "$1$:$2$";
@@ -1381,16 +1381,16 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_16
         %tmp.108 = aputv %tmp.107 1 %tmp.106;
         %tmp.109 = invoke %tmp.88 %tmp.89(%tmp.90, %tmp.108);
         lputv %text.5 %tmp.109;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 165 3 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 165 3 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_stop" ]
         %aORp.6 = local;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_begin:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_begin:
         %tmp.110 = lgetv %clockTime.4;
         %tmp.111 = getv %tmp.110 :hour;
         %tmp.112 = 12;
         %tmp.113 = lt %tmp.111 %tmp.112;
-        bf %tmp.113 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_true:
+        bf %tmp.113 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_true:
         %tmp.114 = self;
         %tmp.115 = getv function %tmp.114 :loadResource;
         %tmp.117 = getv ? :Rez;
@@ -1398,8 +1398,8 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_16
         %tmp.119 = getv %tmp.118 :am;
         %tmp.120 = invoke %tmp.114 %tmp.115(%tmp.119);
         push %tmp.120;
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_false:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_false:
         %tmp.121 = self;
         %tmp.122 = getv function %tmp.121 :loadResource;
         %tmp.124 = getv ? :Rez;
@@ -1407,41 +1407,41 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_16
         %tmp.126 = getv %tmp.125 :pm;
         %tmp.127 = invoke %tmp.121 %tmp.122(%tmp.126);
         push %tmp.127;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_end:
-        %tmp.128 = phi [%tmp.113 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_begin] [%tmp.120 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_true] [%tmp.127 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_false] [%tmp.128 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_end];
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_end:
+        %tmp.128 = phi [%tmp.113 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_begin] [%tmp.120 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_true] [%tmp.127 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_false] [%tmp.128 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_165_14_end];
         lputv %aORp.6 %tmp.128;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 167 3 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_167_3_if_stmt:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 167 3 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_167_3_if_stmt:
         %tmp.130 = getv ? :loc;
         %tmp.131 = 15;
         %tmp.132 = agetv %tmp.130 %tmp.131;
         %tmp.133 = 0;
         %tmp.134 = eq %tmp.132 %tmp.133;
-        bf %tmp.134 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_167_3_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_167_3_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_167_19_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 168 4 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_begin:
+        bf %tmp.134 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_167_3_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_167_3_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_167_19_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 168 4 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_begin:
         %tmp.135 = lgetv %clockTime.4;
         %tmp.136 = getv %tmp.135 :hour;
         %tmp.137 = 12;
         %tmp.138 = lt %tmp.136 %tmp.137;
-        bf %tmp.138 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_true:
+        bf %tmp.138 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_true:
         %tmp.139 = "A";
         push %tmp.139;
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_false:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_false:
         %tmp.140 = "P";
         push %tmp.140;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_end:
-        %tmp.141 = phi [%tmp.138 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_begin] [%tmp.139 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_true] [%tmp.140 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_false] [%tmp.141 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_end];
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_end:
+        %tmp.141 = phi [%tmp.138 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_begin] [%tmp.139 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_true] [%tmp.140 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_false] [%tmp.141 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_168_11_end];
         lputv %aORp.6 %tmp.141;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_167_19_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_167_3_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_167_3_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 171 3 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_stop" ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_167_19_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_167_3_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_167_3_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 171 3 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_stop" ]
         %delta_x.7 = local;
         %tmp.142 = lgetv %dc;
         %tmp.143 = getv function %tmp.142 :getTextWidthInPixels;
@@ -1451,8 +1451,8 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_16
         %tmp.149 = agetv %tmp.147 %tmp.148;
         %tmp.150 = invoke %tmp.142 %tmp.143(%tmp.145, %tmp.149);
         lputv %delta_x.7 %tmp.150;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 173 3 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 173 3 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_stop" ]
         %clockSize.8 = local;
         %tmp.151 = lgetv %dc;
         %tmp.152 = getv function %tmp.151 :getTextWidthInPixels;
@@ -1462,7 +1462,7 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_16
         %tmp.158 = agetv %tmp.156 %tmp.157;
         %tmp.159 = invoke %tmp.151 %tmp.152(%tmp.154, %tmp.158);
         lputv %clockSize.8 %tmp.159;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 176 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 176 3 ]
         %tmp.160 = lgetv %dc;
         %tmp.161 = getv function %tmp.160 :drawText;
         %tmp.163 = getv ? :loc;
@@ -1482,7 +1482,7 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_16
         %tmp.181 = getm $.Toybox.Graphics;
         %tmp.182 = getv %tmp.181 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.160 %tmp.161(%tmp.170, %tmp.174, %tmp.178, %tmp.180, %tmp.182);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 178 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 178 3 ]
         %tmp.183 = lgetv %dc;
         %tmp.184 = getv function %tmp.183 :drawText;
         %tmp.186 = getv ? :loc;
@@ -1502,10 +1502,10 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_16
         %tmp.204 = getm $.Toybox.Graphics;
         %tmp.205 = getv %tmp.204 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.183 %tmp.184(%tmp.193, %tmp.197, %tmp.201, %tmp.203, %tmp.205);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_stop:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_2_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 184 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_stop" ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_162_9_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_157_2_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 184 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_stop" ]
         %temperature.9 = local;
         %tmp.207 = getv ? :Application;
         %tmp.208 = getv %tmp.207 :Storage;
@@ -1513,41 +1513,41 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_15
         %tmp.210 = "sensorTemp";
         %tmp.211 = invoke %tmp.208 %tmp.209(%tmp.210);
         lputv %temperature.9 %tmp.211;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 185 2 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_185_2_if_stmt:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 185 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_185_2_if_stmt:
         %tmp.213 = lgetv %temperature.9;
         %tmp.214 = null;
         %tmp.215 = ne %tmp.213 %tmp.214;
-        bf %tmp.215 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_185_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_185_2_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_185_27_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 186 3 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_186_3_if_stmt:
+        bf %tmp.215 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_185_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_185_2_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_185_27_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 186 3 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_186_3_if_stmt:
         %tmp.217 = getv ? :tempUnit;
         %tmp.218 = getv function %tmp.217 :equals;
         %tmp.219 = "F";
         %tmp.220 = invoke %tmp.217 %tmp.218(%tmp.219);
-        bf %tmp.220 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_186_3_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_186_3_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_186_29_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 187 4 ]
+        bf %tmp.220 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_186_3_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_186_3_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_186_29_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 187 4 ]
         %tmp.222 = lgetv %temperature.9;
         %tmp.223 = as %tmp.222 { (!Null) };
         %tmp.224 = 1.8;
         %tmp.225 = mul %tmp.223 %tmp.224;
-        %tmp.226 = 32.0;
+        %tmp.226 = 32;
         %tmp.227 = add %tmp.225 %tmp.226;
         lputv %temperature.9 %tmp.227;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_186_29_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_186_3_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_186_3_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 189 3 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_186_29_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_186_3_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_186_3_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 189 3 ]
         %tmp.228 = lgetv %temperature.9;
         %tmp.229 = getv function %tmp.228 :format;
         %tmp.230 = "%d";
         %tmp.231 = invoke %tmp.228 %tmp.229(%tmp.230);
         lputv %text.5 %tmp.231;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 191 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 191 3 ]
         %tmp.232 = lgetv %dc;
         %tmp.233 = getv function %tmp.232 :drawText;
         %tmp.235 = getv ? :loc;
@@ -1565,84 +1565,84 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_18
         %tmp.251 = getm $.Toybox.Graphics;
         %tmp.252 = getv %tmp.251 :TEXT_JUSTIFY_LEFT;
         invoke %tmp.232 %tmp.233(%tmp.237, %tmp.241, %tmp.245, %tmp.250, %tmp.252);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_185_27_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_185_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_185_2_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 194 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_185_27_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_185_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_185_2_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 194 2 ]
         %tmp.253 = self;
         %tmp.254 = getv function %tmp.253 :drawBatteryText;
         %tmp.256 = lgetv %dc;
         %tmp.257 = as %tmp.256 Dc;
         %tmp.259 = lgetv %colors.3;
         invoke %tmp.253 %tmp.254(%tmp.257, %tmp.259);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 196 2 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 196 2 ]
         %tmp.260 = self;
         %tmp.261 = getv function %tmp.260 :drawBattery;
         %tmp.263 = lgetv %dc;
         %tmp.264 = as %tmp.263 Dc;
         %tmp.266 = lgetv %colors.3;
         invoke %tmp.260 %tmp.261(%tmp.264, %tmp.266);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 198 2 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 198 2 ]
         %tmp.267 = self;
         %tmp.268 = getv function %tmp.267 :drawGps;
         %tmp.270 = lgetv %dc;
         %tmp.271 = as %tmp.270 Dc;
         %tmp.273 = lgetv %colors.3;
         invoke %tmp.267 %tmp.268(%tmp.271, %tmp.273);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_129_37_stop:
     }
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 202; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 202; ]
     function calc12hr(hour) as Number or Null {
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_202_42_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 203 2 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_203_2_if_stmt:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_202_42_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 203 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_203_2_if_stmt:
         %tmp.2 = lgetv %hour;
         %tmp.3 = 1;
         %tmp.4 = lt %tmp.2 %tmp.3;
-        bf %tmp.4 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_203_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_203_2_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_203_16_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 203 18 ]
+        bf %tmp.4 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_203_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_203_2_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_203_16_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 203 18 ]
         %tmp.6 = lgetv %hour;
         %tmp.7 = 12;
         %tmp.8 = add %tmp.6 %tmp.7;
         ret %tmp.8;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_203_16_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_203_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_203_2_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 204 2 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_204_2_if_stmt:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_203_16_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_203_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_203_2_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 204 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_204_2_if_stmt:
         %tmp.10 = lgetv %hour;
         %tmp.11 = 12;
         %tmp.12 = gt %tmp.10 %tmp.11;
-        bf %tmp.12 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_204_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_204_2_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_204_17_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 204 19 ]
+        bf %tmp.12 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_204_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_204_2_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_204_17_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 204 19 ]
         %tmp.14 = lgetv %hour;
         %tmp.15 = 12;
         %tmp.16 = sub %tmp.14 %tmp.15;
         ret %tmp.16;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_204_17_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_204_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_204_2_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 205 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_204_17_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_204_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_204_2_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 205 2 ]
         %tmp.18 = lgetv %hour;
         ret %tmp.18;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_202_42_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_202_42_stop:
     }
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 209; ]
-    function drawBatteryText(dc as Dc, colors) as Void {
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_209_52_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 210 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_209_52_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_209_52_stop" ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 209; ]
+    function drawBatteryText(dc as Dc, colors as Dictionary) as Void {
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_209_65_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 210 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_209_65_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_209_65_stop" ]
         %battery.1 = local;
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getSystemStats;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = getv %tmp.3 :battery;
         lputv %battery.1 %tmp.4;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 211 2 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 211 2 ]
         %tmp.5 = lgetv %dc;
         %tmp.6 = getv function %tmp.5 :setColor;
         %tmp.8 = lgetv %colors;
@@ -1651,7 +1651,7 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_20
         %tmp.12 = 1;
         %tmp.13 = sub 0 %tmp.12;
         invoke %tmp.5 %tmp.6(%tmp.11, %tmp.13);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 212 2 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 212 2 ]
         %tmp.14 = lgetv %dc;
         %tmp.15 = getv function %tmp.14 :drawText;
         %tmp.17 = getv ? :loc;
@@ -1672,102 +1672,102 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_20
         %tmp.34 = getm $.Toybox.Graphics;
         %tmp.35 = getv %tmp.34 :TEXT_JUSTIFY_RIGHT;
         invoke %tmp.14 %tmp.15(%tmp.19, %tmp.23, %tmp.27, %tmp.33, %tmp.35);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_209_52_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_209_65_stop:
     }
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 216; ]
-    function drawBattery(dc as Dc, colors) as Void {
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 217 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_stop" ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 216; ]
+    function drawBattery(dc as Dc, colors as Dictionary) as Void {
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 217 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_stop" ]
         %greenColor.1 = local;
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_stop" ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_stop" ]
         %redColor.2 = local;
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_stop" ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_stop" ]
         %yellowColor.3 = local;
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_stop" ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_stop" ]
         %grayColor.4 = local;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 219 2 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_2_if_stmt:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 219 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_2_if_stmt:
         %tmp.2 = lgetv %colors;
         %tmp.4 = const :background;
         %tmp.5 = agetv %tmp.2 %tmp.4;
         %tmp.6 = getm $.Toybox.Graphics;
         %tmp.7 = getv %tmp.6 :COLOR_BLACK;
         %tmp.8 = eq %tmp.5 %tmp.7;
-        bf %tmp.8 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_2_if_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_2_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_51_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 220 3 ]
+        bf %tmp.8 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_2_if_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_2_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_51_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 220 3 ]
         %tmp.9 = getm $.Toybox.Graphics;
         %tmp.10 = getv %tmp.9 :COLOR_GREEN;
         lputv %greenColor.1 %tmp.10;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 221 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 221 3 ]
         %tmp.11 = getm $.Toybox.Graphics;
         %tmp.12 = getv %tmp.11 :COLOR_RED;
         lputv %redColor.2 %tmp.12;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 222 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 222 3 ]
         %tmp.13 = getm $.Toybox.Graphics;
         %tmp.14 = getv %tmp.13 :COLOR_YELLOW;
         lputv %yellowColor.3 %tmp.14;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 223 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 223 3 ]
         %tmp.15 = getm $.Toybox.Graphics;
         %tmp.16 = getv %tmp.15 :COLOR_DK_GRAY;
         lputv %grayColor.4 %tmp.16;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_51_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_2_if_false:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_225_9_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 226 3 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_51_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_2_if_false:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_225_9_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 226 3 ]
         %tmp.17 = getm $.Toybox.Graphics;
         %tmp.18 = getv %tmp.17 :COLOR_DK_GREEN;
         lputv %greenColor.1 %tmp.18;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 227 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 227 3 ]
         %tmp.19 = getm $.Toybox.Graphics;
         %tmp.20 = getv %tmp.19 :COLOR_DK_RED;
         lputv %redColor.2 %tmp.20;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 228 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 228 3 ]
         %tmp.21 = getm $.Toybox.Graphics;
         %tmp.22 = getv %tmp.21 :COLOR_ORANGE;
         lputv %yellowColor.3 %tmp.22;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 230 3 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_begin:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 230 3 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_begin:
         %tmp.24 = getv ? :loc;
         %tmp.25 = 15;
         %tmp.26 = agetv %tmp.24 %tmp.25;
         %tmp.27 = 1;
         %tmp.28 = eq %tmp.26 %tmp.27;
-        bf %tmp.28 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_true:
+        bf %tmp.28 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_true:
         %tmp.29 = getm $.Toybox.Graphics;
         %tmp.30 = getv %tmp.29 :COLOR_LT_GRAY;
         push %tmp.30;
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_false:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_false:
         %tmp.31 = getm $.Toybox.Graphics;
         %tmp.32 = getv %tmp.31 :COLOR_DK_GRAY;
         push %tmp.32;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_end:
-        %tmp.33 = phi [%tmp.28 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_begin] [%tmp.30 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_true] [%tmp.32 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_false] [%tmp.33 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_end];
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_end:
+        %tmp.33 = phi [%tmp.28 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_begin] [%tmp.30 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_true] [%tmp.32 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_false] [%tmp.33 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_230_15_end];
         lputv %grayColor.4 %tmp.33;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_225_9_stop:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_2_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 233 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_stop" ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_225_9_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_219_2_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 233 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_stop" ]
         %battery.5 = local;
         %tmp.34 = getm $.Toybox.System;
         %tmp.35 = getv function %tmp.34 :getSystemStats;
         %tmp.36 = invoke %tmp.34 %tmp.35();
         %tmp.37 = getv %tmp.36 :battery;
         lputv %battery.5 %tmp.37;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 235 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 235 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_stop" ]
         %x.6 = local;
         %tmp.39 = getv ? :loc;
         %tmp.40 = 10;
         %tmp.41 = agetv %tmp.39 %tmp.40;
         lputv %x.6 %tmp.41;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 236 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 236 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_stop" ]
         %y.7 = local;
         %tmp.43 = getv ? :loc;
         %tmp.44 = 11;
@@ -1775,15 +1775,15 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_21
         %tmp.46 = getv function %tmp.45 :toFloat;
         %tmp.47 = invoke %tmp.45 %tmp.46();
         lputv %y.7 %tmp.47;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 237 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 237 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_stop" ]
         %width.8 = local;
         %tmp.49 = getv ? :loc;
         %tmp.50 = 12;
         %tmp.51 = agetv %tmp.49 %tmp.50;
         lputv %width.8 %tmp.51;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 238 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 238 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_stop" ]
         %height.9 = local;
         %tmp.53 = getv ? :loc;
         %tmp.54 = 13;
@@ -1791,29 +1791,29 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_21
         %tmp.56 = getv function %tmp.55 :toFloat;
         %tmp.57 = invoke %tmp.55 %tmp.56();
         lputv %height.9 %tmp.57;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 239 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 239 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_stop" ]
         %cap.10 = local;
         %tmp.59 = getv ? :loc;
         %tmp.60 = 14;
         %tmp.61 = agetv %tmp.59 %tmp.60;
         lputv %cap.10 %tmp.61;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 240 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 240 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_stop" ]
         %x2.11 = local;
         %tmp.63 = lgetv %x.6;
         %tmp.65 = lgetv %cap.10;
         %tmp.66 = add %tmp.63 %tmp.65;
         lputv %x2.11 %tmp.66;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 241 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 241 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_stop" ]
         %y2.12 = local;
         %tmp.68 = lgetv %y.7;
         %tmp.70 = lgetv %cap.10;
         %tmp.71 = sub %tmp.68 %tmp.70;
         lputv %y2.12 %tmp.71;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 242 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 242 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_stop" ]
         %width2.13 = local;
         %tmp.73 = lgetv %width.8;
         %tmp.75 = lgetv %cap.10;
@@ -1821,14 +1821,14 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_21
         %tmp.77 = mul %tmp.75 %tmp.76;
         %tmp.78 = sub %tmp.73 %tmp.77;
         lputv %width2.13 %tmp.78;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 244 2 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 244 2 ]
         %tmp.79 = lgetv %dc;
         %tmp.80 = getv function %tmp.79 :setColor;
         %tmp.82 = lgetv %grayColor.4;
         %tmp.83 = 1;
         %tmp.84 = sub 0 %tmp.83;
         invoke %tmp.79 %tmp.80(%tmp.82, %tmp.84);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 245 5 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 245 5 ]
         %tmp.85 = lgetv %dc;
         %tmp.86 = getv function %tmp.85 :drawRectangle;
         %tmp.88 = lgetv %x.6;
@@ -1836,7 +1836,7 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_21
         %tmp.92 = lgetv %width.8;
         %tmp.94 = lgetv %height.9;
         invoke %tmp.85 %tmp.86(%tmp.88, %tmp.90, %tmp.92, %tmp.94);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 246 5 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 246 5 ]
         %tmp.95 = lgetv %dc;
         %tmp.96 = getv function %tmp.95 :drawRectangle;
         %tmp.98 = lgetv %x2.11;
@@ -1844,58 +1844,58 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_21
         %tmp.102 = lgetv %width2.13;
         %tmp.104 = lgetv %cap.10;
         invoke %tmp.95 %tmp.96(%tmp.98, %tmp.100, %tmp.102, %tmp.104);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 248 2 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_2_if_stmt:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 248 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_2_if_stmt:
         %tmp.106 = lgetv %battery.5;
         %tmp.107 = 15;
         %tmp.108 = lt %tmp.106 %tmp.107;
-        bf %tmp.108 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_2_if_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_2_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_20_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 249 3 ]
+        bf %tmp.108 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_2_if_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_2_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_20_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 249 3 ]
         %tmp.109 = lgetv %dc;
         %tmp.110 = getv function %tmp.109 :setColor;
         %tmp.112 = lgetv %redColor.2;
         %tmp.113 = 1;
         %tmp.114 = sub 0 %tmp.113;
         invoke %tmp.109 %tmp.110(%tmp.112, %tmp.114);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_20_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_2_if_false:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 250 9 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_9_if_stmt:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_20_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_2_if_false:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 250 9 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_9_if_stmt:
         %tmp.116 = lgetv %battery.5;
         %tmp.117 = 30;
         %tmp.118 = lt %tmp.116 %tmp.117;
-        bf %tmp.118 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_9_if_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_9_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_26_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 251 3 ]
+        bf %tmp.118 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_9_if_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_9_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_26_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 251 3 ]
         %tmp.119 = lgetv %dc;
         %tmp.120 = getv function %tmp.119 :setColor;
         %tmp.122 = lgetv %yellowColor.3;
         %tmp.123 = 1;
         %tmp.124 = sub 0 %tmp.123;
         invoke %tmp.119 %tmp.120(%tmp.122, %tmp.124);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_26_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_9_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_9_if_false:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 252 9 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_9_if_stmt:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_26_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_9_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_9_if_false:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 252 9 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_9_if_stmt:
         %tmp.126 = lgetv %battery.5;
         %tmp.127 = 100;
         %tmp.128 = eq %tmp.126 %tmp.127;
-        bf %tmp.128 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_9_if_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_9_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_28_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 253 3 ]
+        bf %tmp.128 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_9_if_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_9_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_28_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 253 3 ]
         %tmp.129 = lgetv %dc;
         %tmp.130 = getv function %tmp.129 :setColor;
         %tmp.132 = lgetv %greenColor.1;
         %tmp.133 = 1;
         %tmp.134 = sub 0 %tmp.133;
         invoke %tmp.129 %tmp.130(%tmp.132, %tmp.134);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 255 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 255 3 ]
         %tmp.135 = lgetv %dc;
         %tmp.136 = getv function %tmp.135 :fillRectangle;
         %tmp.138 = lgetv %x2.11;
@@ -1903,22 +1903,22 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_25
         %tmp.142 = lgetv %width2.13;
         %tmp.144 = lgetv %cap.10;
         invoke %tmp.135 %tmp.136(%tmp.138, %tmp.140, %tmp.142, %tmp.144);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_28_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_9_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_9_if_false:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_256_12_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 257 3 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_28_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_9_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_9_if_false:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_256_12_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 257 3 ]
         %tmp.145 = lgetv %dc;
         %tmp.146 = getv function %tmp.145 :setColor;
         %tmp.148 = lgetv %greenColor.1;
         %tmp.149 = 1;
         %tmp.150 = sub 0 %tmp.149;
         invoke %tmp.145 %tmp.146(%tmp.148, %tmp.150);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_256_12_stop:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_9_if_end:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_9_if_end:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_2_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 261 5 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_256_12_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_252_9_if_end:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_250_9_if_end:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_248_2_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 261 5 ]
         %tmp.151 = lgetv %dc;
         %tmp.152 = getv function %tmp.151 :fillRectangle;
         %tmp.154 = lgetv %x.6;
@@ -1938,116 +1938,116 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_24
         %tmp.174 = div %tmp.172 %tmp.173;
         %tmp.175 = mul %tmp.170 %tmp.174;
         invoke %tmp.151 %tmp.152(%tmp.154, %tmp.166, %tmp.168, %tmp.175);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_47_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_216_61_stop:
     }
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 265; ]
-    function drawGps(dc as Dc, colors) as Void {
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 266 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_stop" ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 265; ]
+    function drawGps(dc as Dc, colors as Dictionary) as Void {
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 266 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_stop" ]
         %yellowColor.1 = local;
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_stop" ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_stop" ]
         %grayColor.2 = local;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 267 2 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_2_if_stmt:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 267 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_2_if_stmt:
         %tmp.2 = lgetv %colors;
         %tmp.4 = const :background;
         %tmp.5 = agetv %tmp.2 %tmp.4;
         %tmp.6 = getm $.Toybox.Graphics;
         %tmp.7 = getv %tmp.6 :COLOR_BLACK;
         %tmp.8 = eq %tmp.5 %tmp.7;
-        bf %tmp.8 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_2_if_false;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_2_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_51_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 268 3 ]
+        bf %tmp.8 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_2_if_false;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_2_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_51_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 268 3 ]
         %tmp.9 = getm $.Toybox.Graphics;
         %tmp.10 = getv %tmp.9 :COLOR_YELLOW;
         lputv %yellowColor.1 %tmp.10;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 269 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 269 3 ]
         %tmp.11 = getm $.Toybox.Graphics;
         %tmp.12 = getv %tmp.11 :COLOR_DK_GRAY;
         lputv %grayColor.2 %tmp.12;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_51_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_2_if_false:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_270_9_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 271 3 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_51_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_2_if_false:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_270_9_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 271 3 ]
         %tmp.13 = getm $.Toybox.Graphics;
         %tmp.14 = getv %tmp.13 :COLOR_ORANGE;
         lputv %yellowColor.1 %tmp.14;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 272 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 272 3 ]
         %tmp.15 = getm $.Toybox.Graphics;
         %tmp.16 = getv %tmp.15 :COLOR_LT_GRAY;
         lputv %grayColor.2 %tmp.16;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_270_9_stop:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_2_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 275 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_stop" ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_270_9_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_267_2_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 275 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_stop" ]
         %antenna.3 = local;
         %tmp.17 = self;
         %tmp.18 = getv function %tmp.17 :getGpsState;
         %tmp.19 = invoke %tmp.17 %tmp.18();
         lputv %antenna.3 %tmp.19;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 277 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 277 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_stop" ]
         %x.4 = local;
         %tmp.21 = getv ? :loc;
         %tmp.22 = 6;
         %tmp.23 = agetv %tmp.21 %tmp.22;
         lputv %x.4 %tmp.23;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 277 18 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 277 18 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_stop" ]
         %y.5 = local;
         %tmp.25 = getv ? :loc;
         %tmp.26 = 7;
         %tmp.27 = agetv %tmp.25 %tmp.26;
         lputv %y.5 %tmp.27;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 277 34 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 277 34 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_stop" ]
         %width.6 = local;
         %tmp.29 = getv ? :loc;
         %tmp.30 = 8;
         %tmp.31 = agetv %tmp.29 %tmp.30;
         lputv %width.6 %tmp.31;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 277 54 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 277 54 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_stop" ]
         %height.7 = local;
         %tmp.33 = getv ? :loc;
         %tmp.34 = 9;
         %tmp.35 = agetv %tmp.33 %tmp.34;
         lputv %height.7 %tmp.35;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 278 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 278 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_stop" ]
         %xd.8 = local;
         %tmp.37 = lgetv %width.6;
         %tmp.38 = 5.0;
         %tmp.39 = div %tmp.37 %tmp.38;
         lputv %xd.8 %tmp.39;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 279 2 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_stop" ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 279 2 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_stop" ]
         %yh.9 = local;
         %tmp.41 = lgetv %height.7;
         %tmp.42 = 4.0;
         %tmp.43 = div %tmp.41 %tmp.42;
         lputv %yh.9 %tmp.43;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 281 2 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_281_2_if_stmt:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 281 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_281_2_if_stmt:
         %tmp.45 = getv ? :loc;
         %tmp.46 = 15;
         %tmp.47 = agetv %tmp.45 %tmp.46;
         %tmp.48 = 1;
         %tmp.49 = eq %tmp.47 %tmp.48;
-        bf %tmp.49 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_281_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_281_2_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_281_20_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 282 3 ]
+        bf %tmp.49 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_281_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_281_2_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_281_20_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 282 3 ]
         %tmp.50 = lgetv %dc;
         %tmp.51 = getv function %tmp.50 :setColor;
         %tmp.53 = lgetv %grayColor.2;
         %tmp.54 = 1;
         %tmp.55 = sub 0 %tmp.54;
         invoke %tmp.50 %tmp.51(%tmp.53, %tmp.55);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 283 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 283 3 ]
         %tmp.56 = lgetv %dc;
         %tmp.57 = getv function %tmp.56 :fillRectangle;
         %tmp.59 = lgetv %x.4;
@@ -2061,7 +2061,7 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_28
         %tmp.71 = sub %tmp.69 %tmp.70;
         %tmp.73 = lgetv %yh.9;
         invoke %tmp.56 %tmp.57(%tmp.59, %tmp.67, %tmp.71, %tmp.73);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 284 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 284 3 ]
         %tmp.74 = lgetv %dc;
         %tmp.75 = getv function %tmp.74 :fillRectangle;
         %tmp.77 = lgetv %x.4;
@@ -2081,7 +2081,7 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_28
         %tmp.97 = 2;
         %tmp.98 = mul %tmp.96 %tmp.97;
         invoke %tmp.74 %tmp.75(%tmp.80, %tmp.90, %tmp.94, %tmp.98);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 285 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 285 3 ]
         %tmp.99 = lgetv %dc;
         %tmp.100 = getv function %tmp.99 :fillRectangle;
         %tmp.102 = lgetv %x.4;
@@ -2103,7 +2103,7 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_28
         %tmp.124 = 3;
         %tmp.125 = mul %tmp.123 %tmp.124;
         invoke %tmp.99 %tmp.100(%tmp.107, %tmp.117, %tmp.121, %tmp.125);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 286 3 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 286 3 ]
         %tmp.126 = lgetv %dc;
         %tmp.127 = getv function %tmp.126 :fillRectangle;
         %tmp.129 = lgetv %x.4;
@@ -2125,43 +2125,43 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_28
         %tmp.151 = 4;
         %tmp.152 = mul %tmp.150 %tmp.151;
         invoke %tmp.126 %tmp.127(%tmp.134, %tmp.144, %tmp.148, %tmp.152);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_281_20_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_281_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_281_2_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 289 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_281_20_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_281_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_281_2_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 289 2 ]
         %tmp.153 = lgetv %dc;
         %tmp.154 = getv function %tmp.153 :setColor;
         %tmp.156 = lgetv %yellowColor.1;
         %tmp.157 = 1;
         %tmp.158 = sub 0 %tmp.157;
         invoke %tmp.153 %tmp.154(%tmp.156, %tmp.158);
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 291 2 ]
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 291 2 ]
         %tmp.160 = lgetv %antenna.3;
         push %tmp.160;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_291_2_switchCaseBegin:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_291_2_switchCaseBegin:
         %tmp.161 = dup %tmp.160;
         %tmp.162 = 4;
         %tmp.163 = getv function %tmp.161 :equals;
         %tmp.164 = invoke %tmp.161 %tmp.163 (%tmp.162);
-        bt %tmp.164 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_292_3;
+        bt %tmp.164 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_292_3;
         %tmp.165 = dup %tmp.160;
         %tmp.166 = 3;
         %tmp.167 = getv function %tmp.165 :equals;
         %tmp.168 = invoke %tmp.165 %tmp.167 (%tmp.166);
-        bt %tmp.168 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_294_3;
+        bt %tmp.168 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_294_3;
         %tmp.169 = dup %tmp.160;
         %tmp.170 = 2;
         %tmp.171 = getv function %tmp.169 :equals;
         %tmp.172 = invoke %tmp.169 %tmp.171 (%tmp.170);
-        bt %tmp.172 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_296_3;
+        bt %tmp.172 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_296_3;
         %tmp.173 = dup %tmp.160;
         %tmp.174 = 1;
         %tmp.175 = getv function %tmp.173 :equals;
         %tmp.176 = invoke %tmp.173 %tmp.175 (%tmp.174);
-        bt %tmp.176 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_298_3;
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_291_2_defaultCodeBegin;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_292_3:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 293 3 ]
+        bt %tmp.176 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_298_3;
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_291_2_defaultCodeBegin;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_292_3:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 293 3 ]
         %tmp.177 = lgetv %dc;
         %tmp.178 = getv function %tmp.177 :fillRectangle;
         %tmp.180 = lgetv %x.4;
@@ -2183,8 +2183,8 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29
         %tmp.202 = 4;
         %tmp.203 = mul %tmp.201 %tmp.202;
         invoke %tmp.177 %tmp.178(%tmp.185, %tmp.195, %tmp.199, %tmp.203);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_294_3:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 295 3 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_294_3:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 295 3 ]
         %tmp.204 = lgetv %dc;
         %tmp.205 = getv function %tmp.204 :fillRectangle;
         %tmp.207 = lgetv %x.4;
@@ -2206,8 +2206,8 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29
         %tmp.229 = 3;
         %tmp.230 = mul %tmp.228 %tmp.229;
         invoke %tmp.204 %tmp.205(%tmp.212, %tmp.222, %tmp.226, %tmp.230);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_296_3:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 297 3 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_296_3:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 297 3 ]
         %tmp.231 = lgetv %dc;
         %tmp.232 = getv function %tmp.231 :fillRectangle;
         %tmp.234 = lgetv %x.4;
@@ -2227,8 +2227,8 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29
         %tmp.254 = 2;
         %tmp.255 = mul %tmp.253 %tmp.254;
         invoke %tmp.231 %tmp.232(%tmp.237, %tmp.247, %tmp.251, %tmp.255);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_298_3:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 299 3 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_298_3:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 299 3 ]
         %tmp.256 = lgetv %dc;
         %tmp.257 = getv function %tmp.256 :fillRectangle;
         %tmp.259 = lgetv %x.4;
@@ -2242,31 +2242,31 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_29
         %tmp.271 = sub %tmp.269 %tmp.270;
         %tmp.273 = lgetv %yh.9;
         invoke %tmp.256 %tmp.257(%tmp.259, %tmp.267, %tmp.271, %tmp.273);
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_300_3:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_291_2_defaultCodeBegin:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_291_2_switchCaseEnd:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_300_3:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_291_2_defaultCodeBegin:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_291_2_switchCaseEnd:
         pop;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_44_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_265_58_stop:
     }
-    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 306; ]
+    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 306; ]
     function getGpsState() as Number {
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_306_37_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 307 5 ]
-        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_306_37_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_306_37_stop" ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_306_37_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 307 5 ]
+        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_306_37_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_306_37_stop" ]
         %positionInfo.1 = local;
         %tmp.1 = getm $.Toybox.Position;
         %tmp.2 = getv function %tmp.1 :getInfo;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %positionInfo.1 %tmp.3;
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 308 2 ]
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_2_if_stmt:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_6_begin:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 308 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_2_if_stmt:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_6_begin:
         %tmp.5 = lgetv %positionInfo.1;
         %tmp.7 = const :accuracy;
         %tmp.8 = canhazplz %tmp.5 %tmp.7;
         %tmp.9 = dup %tmp.8;
-        bf %tmp.9 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_36_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_36_true:
+        bf %tmp.9 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_36_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_36_true:
         %tmp.10 = lgetv %positionInfo.1;
         %tmp.11 = as %tmp.10 { (interface { var accuracy; }) };
         %tmp.12 = getv %tmp.11 :accuracy;
@@ -2274,25 +2274,25 @@ C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_30
         %tmp.14 = ne %tmp.12 %tmp.13;
         %tmp.15 = and %tmp.8 %tmp.14;
         push %tmp.15;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_36_end:
-        %tmp.16 = phi [%tmp.9 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_6_begin] [%tmp.15 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_36_true] [%tmp.16 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_36_end];
-        bf %tmp.16 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_2_if_true:
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_67_start:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 309 3 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_36_end:
+        %tmp.16 = phi [%tmp.9 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_6_begin] [%tmp.15 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_36_true] [%tmp.16 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_36_end];
+        bf %tmp.16 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_2_if_true:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_67_start:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 309 3 ]
         %tmp.17 = lgetv %positionInfo.1;
         %tmp.18 = as %tmp.17 { (interface { var accuracy; }) };
         %tmp.19 = getv %tmp.18 :accuracy;
         ret %tmp.19;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_67_stop:
-        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_2_if_end;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_2_if_end:
-[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 311 2 ]
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_67_stop:
+        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_2_if_end;
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_308_2_if_end:
+[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc" 311 2 ]
         %tmp.20 = 0;
         ret %tmp.20;
-C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_306_37_stop:
+C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeView_mc_306_37_stop:
     }
 }
-[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 1; ]
+[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeView.mc"; @line = 1; ]
 <init> {
 }

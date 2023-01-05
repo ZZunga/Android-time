@@ -206,7 +206,7 @@ class AndroidTimeView extends WatchUi.DataField{
 	}
 	
 	// 배터리 잔량 표시
-	function drawBatteryText(dc as Dc, colors as Dictionary) as Void {
+	function drawBatteryText(dc as Dc, colors as Dictionary)as Void {
 		var battery = System.getSystemStats().battery;	// Float 변수
 		dc.setColor(colors[:color], -1);
 		dc.drawText(loc[4], loc[3], fnt[1], battery.format("%d")+"%", Graphics.TEXT_JUSTIFY_RIGHT);
