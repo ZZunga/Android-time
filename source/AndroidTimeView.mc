@@ -206,14 +206,14 @@ class AndroidTimeView extends WatchUi.DataField{
 	}
 	
 	// 배터리 잔량 표시
-	function drawBatteryText(dc as Dc, colors) as Void {
+	function drawBatteryText(dc as Dc, colors as Dictionary) as Void {
 		var battery = System.getSystemStats().battery;	// Float 변수
 		dc.setColor(colors[:color], -1);
 		dc.drawText(loc[4], loc[3], fnt[1], battery.format("%d")+"%", Graphics.TEXT_JUSTIFY_RIGHT);
 	}    
 
 	// 배터리 아이콘 그리기
-	function drawBattery(dc as Dc, colors) as Void{
+	function drawBattery(dc as Dc, colors as Dictionary) as Void{
 		var greenColor, redColor, yellowColor, grayColor;
 		// 배경이 흑색이면 밝은 컬러
 		if (colors[:background] == Graphics.COLOR_BLACK) {
@@ -262,7 +262,7 @@ class AndroidTimeView extends WatchUi.DataField{
     }
     
 	// GPS 아이콘 그리기
-	function drawGps(dc as Dc, colors) as Void {
+	function drawGps(dc as Dc, colors as Dictionary) as Void {
 		var yellowColor, grayColor;
 		if (colors[:background] == Graphics.COLOR_BLACK) {
 			yellowColor = Graphics.COLOR_YELLOW;
