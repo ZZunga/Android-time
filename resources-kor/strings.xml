@@ -1,5 +1,5 @@
 <strings>
-    <string id="AppName">AndroidTime</string>
+    <string id="AppName">Android 시계</string>
     <string id="label">Time+Temperature+GPS+Battery</string>
 	<string id="appVersion">버전정보</string>
     <string id="am">오\n전</string>

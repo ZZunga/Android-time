@@ -2,7 +2,6 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.Position;
 import Toybox.Sensor;
-import Toybox.SensorHistory;
 import Toybox.System;
 import Toybox.WatchUi;
 
@@ -25,7 +24,7 @@ class AndroidTimeView extends WatchUi.DataField{
 	// 온도, 시간제 단위 변수 초기화
 	function initVariables() {
 		var settings = System.getDeviceSettings();
-		var unitMetric = Application.Properties.getValue("unitMetric") as Number or Null;
+		var unitMetric = Application.Properties.getValue("unitMetric") as Number;
 		switch(unitMetric) {
 		case 1:
 			tempUnit = "C";
@@ -137,19 +136,15 @@ class AndroidTimeView extends WatchUi.DataField{
 		} else {
 			txtColor = Graphics.COLOR_BLACK;
 		}
-		var colors = {
-            :background => backgroundColor,
-            :color => txtColor
-        };
 		
 		// 화면 초기화(지우기)
-		dc.setColor(colors[:color], colors[:background]);
+		dc.setColor(txtColor, backgroundColor);
 		dc.clear();
 
 		// 현재시각 불러오기
 		var clockTime = System.getClockTime();
 		// 기본 색상 지정. -1은 투명 : Graphics.COLOR_TRANSPARENT와 동일.
-		dc.setColor(colors[:color], -1);
+		dc.setColor(txtColor, -1);
 
 		// String 변수
 		var text;
@@ -191,32 +186,42 @@ class AndroidTimeView extends WatchUi.DataField{
 			dc.drawText(loc[2], loc[3], fnt[1], text + tempUnit, Graphics.TEXT_JUSTIFY_LEFT);
 		}		
 		// 배터리 잔량 표시
-		drawBatteryText(dc as Dc, colors);
+		drawBatteryText(dc);
 		// 배터리 아이콘 표시
-		drawBattery(dc as Dc, colors);
+		drawBattery(dc);
 		// GPS 아이콘 표시
-		drawGps(dc as Dc, colors);
+		drawGps(dc);
 	}
 
 	// 시간을 입력받아 시간이 0이면 12, 12보다 크면 12를 빼서 12시간제로 반환
-	function calc12hr(hour) as Number or Null{
+	function calc12hr(hour) as Number {
 		if (hour < 1) {	return hour + 12;}
 		if (hour > 12) { return hour - 12; }
 		return hour;
 	}
 	
 	// 배터리 잔량 표시
-	function drawBatteryText(dc as Dc, colors as Dictionary)as Void {
+	function drawBatteryText(dc as Dc) as Void {
+		var backgroundColor = getBackgroundColor();
+		// 배경에 따른 글자, 배터리, GPS 색상 지정
+		var txtColor;
+		if (backgroundColor == Graphics.COLOR_BLACK) {
+			txtColor = Graphics.COLOR_WHITE;
+		} else {
+			txtColor = Graphics.COLOR_BLACK;
+		}
 		var battery = System.getSystemStats().battery;	// Float 변수
-		dc.setColor(colors[:color], -1);
+		dc.setColor(txtColor, -1);
 		dc.drawText(loc[4], loc[3], fnt[1], battery.format("%d")+"%", Graphics.TEXT_JUSTIFY_RIGHT);
 	}    
 
 	// 배터리 아이콘 그리기
-	function drawBattery(dc as Dc, colors as Dictionary) as Void{
+	function drawBattery(dc as Dc) as Void{
+		var backgroundColor = getBackgroundColor();
+		// 배경에 따른 글자, 배터리, GPS 색상 지정
 		var greenColor, redColor, yellowColor, grayColor;
 		// 배경이 흑색이면 밝은 컬러
-		if (colors[:background] == Graphics.COLOR_BLACK) {
+		if (backgroundColor == Graphics.COLOR_BLACK) {
 			greenColor = Graphics.COLOR_GREEN;
 			redColor = Graphics.COLOR_RED;
 			yellowColor = Graphics.COLOR_YELLOW;
@@ -262,9 +267,10 @@ class AndroidTimeView extends WatchUi.DataField{
     }
     
 	// GPS 아이콘 그리기
-	function drawGps(dc as Dc, colors as Dictionary) as Void {
+	function drawGps(dc as Dc) as Void {
+		var backgroundColor = getBackgroundColor();
 		var yellowColor, grayColor;
-		if (colors[:background] == Graphics.COLOR_BLACK) {
+		if (backgroundColor == Graphics.COLOR_BLACK) {
 			yellowColor = Graphics.COLOR_YELLOW;
 			grayColor = Graphics.COLOR_DK_GRAY;
 		} else {

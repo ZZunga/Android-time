@@ -1,57 +1,57 @@
-[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 1; ]
+[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 1; ]
 import Toybox.Application;
-[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 2; ]
+[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 2; ]
 import Toybox.Background;
-[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 3; ]
+[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 3; ]
 import Toybox.Lang;
-[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 4; ]
+[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 4; ]
 import Toybox.Time;
-[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 5; ]
+[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 5; ]
 import Toybox.WatchUi;
-[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 7; background = true; ]
+[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 7; background = true; ]
 class AndroidTimeApp extends Application.AppBase{
-    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 8; ]
+    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 8; ]
     <init> {
     }
-    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 8; ]
+    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 8; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 10; @position = 5; ]
+    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 10; @position = 5; ]
     var dataField;
-    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 12; ]
+    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 12; ]
     function initialize() as Void {
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_12_26_start:
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 13 8 ]
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_12_26_start:
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 13 8 ]
         %tmp.2 = getv ? :AppBase;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_12_26_stop:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_12_26_stop:
     }
-    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 16; ]
+    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 16; ]
     function onStart(state as Dictionary or Null) as Void {
     }
-    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 19; ]
+    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 19; ]
     function onStop(state as Dictionary or Null) as Void {
     }
     //! Return the initial view of your application here
-    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 23; ]
+    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 23; ]
     function getInitialView() as Array<Views or InputDelegates> or Null {
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_23_65_start:
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 24 5 ]
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_23_65_start:
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 24 5 ]
         %tmp.4 = getv ? :AndroidTimeView;
         %tmp.1 = newc %tmp.4 ();
         %tmp.5 = as %tmp.1 Array<Views or InputDelegates>;
         putv self :dataField %tmp.5;
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 25 5 ]
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_25_5_if_stmt:
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 25 5 ]
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_25_5_if_stmt:
         %tmp.7 = getv ? :System;
         %tmp.9 = const :ServiceDelegate;
         %tmp.10 = canhazplz %tmp.7 %tmp.9;
-        bf %tmp.10 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_25_5_if_end;
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_25_5_if_true:
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_25_38_start:
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 28 6 ]
+        bf %tmp.10 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_25_5_if_end;
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_25_5_if_true:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_25_38_start:
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 28 6 ]
         %tmp.11 = getm $.Toybox.Background;
         %tmp.12 = getv function %tmp.11 :registerForTemporalEvent;
         %tmp.15 = getm $.Toybox.Time;
@@ -61,66 +61,66 @@ C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_Andr
         %tmp.19 = mul %tmp.17 %tmp.18;
         %tmp.13 = newc %tmp.16 (%tmp.19);
         invoke %tmp.11 %tmp.12(%tmp.13);
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_25_38_stop:
-        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_25_5_if_end;
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_25_5_if_end:
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 30 8 ]
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_25_38_stop:
+        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_25_5_if_end;
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_25_5_if_end:
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 30 8 ]
         %tmp.20 = newa 1;
         %tmp.22 = getv ? :dataField;
         %tmp.23 = dup %tmp.20;
         %tmp.24 = aputv %tmp.23 0 %tmp.22;
         ret %tmp.24;
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_23_65_stop:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_23_65_stop:
     }
-    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 34; ]
+    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 34; ]
     function onBackgroundData(temperature as Float) as Void {
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_34_60_start:
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 35 8 ]
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_35_8_if_stmt:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_34_60_start:
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 35 8 ]
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_35_8_if_stmt:
         %tmp.2 = lgetv %temperature;
         %tmp.3 = null;
         %tmp.4 = ne %tmp.2 %tmp.3;
-        bf %tmp.4 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_35_8_if_end;
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_35_8_if_true:
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_35_33_start:
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 36 12 ]
+        bf %tmp.4 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_35_8_if_end;
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_35_8_if_true:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_35_33_start:
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 36 12 ]
         %tmp.6 = getv ? :Storage;
         %tmp.7 = getv function %tmp.6 :setValue;
         %tmp.8 = "sensorTemp";
         %tmp.10 = lgetv %temperature;
         %tmp.11 = as %tmp.10 { (!Null) };
         invoke %tmp.6 %tmp.7(%tmp.8, %tmp.11);
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_35_33_stop:
-        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_35_8_if_end;
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_35_8_if_end:
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_34_60_stop:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_35_33_stop:
+        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_35_8_if_end;
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_35_8_if_end:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_34_60_stop:
     }
-    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 40; ]
+    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 40; ]
     function getServiceDelegate() {
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_40_31_start:
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 41 2 ]
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_40_31_start:
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 41 2 ]
         %tmp.1 = newa 1;
         %tmp.5 = getv ? :tempServiceDelegate;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_40_31_stop:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_40_31_stop:
     }
-    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 45; ]
+    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 45; ]
     function onSettingsChanged() as Void {
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_45_38_start:
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 46 2 ]
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_45_38_start:
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 46 2 ]
         %tmp.2 = getv ? :dataField;
         %tmp.3 = getv function %tmp.2 :initVariables;
         invoke %tmp.2 %tmp.3();
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 47 2 ]
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc" 47 2 ]
         %tmp.5 = getv ? :dataField;
         %tmp.6 = getv function %tmp.5 :getLOC;
         invoke %tmp.5 %tmp.6();
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_45_38_stop:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_AndroidTimeApp_mc_45_38_stop:
     }
 }
-[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 1; ]
+[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\AndroidTimeApp.mc"; @line = 1; ]
 <init> {
 }

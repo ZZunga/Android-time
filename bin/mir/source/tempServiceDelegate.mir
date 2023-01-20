@@ -1,46 +1,46 @@
-[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 1; ]
+[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 1; ]
 import Toybox.Background;
-[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 2; ]
+[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 2; ]
 import Toybox.Sensor;
-[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 3; ]
+[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 3; ]
 import Toybox.System;
-[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 5; background = true; ]
+[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 5; background = true; ]
 class tempServiceDelegate extends System.ServiceDelegate{
-    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 6; ]
+    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 6; ]
     <init> {
     }
-    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 6; ]
+    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 6; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 8; ]
+    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 8; ]
     function initialize() as Void {
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_8_23_start:
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc" 9 2 ]
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_8_23_start:
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc" 9 2 ]
         %tmp.2 = getv ? :ServiceDelegate;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_8_23_stop:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_8_23_stop:
     }
-    [ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 12; ]
+    [ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 12; ]
     function onTemporalEvent() as Void {
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_12_36_start:
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc" 13 2 ]
-        [ "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_12_36_start" "C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_12_36_stop" ]
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_12_36_start:
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc" 13 2 ]
+        [ "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_12_36_start" "C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_12_36_stop" ]
         %senInfo.1 = local;
         %tmp.1 = getm $.Toybox.Sensor;
         %tmp.2 = getv function %tmp.1 :getInfo;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %senInfo.1 %tmp.3;
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc" 14 2 ]
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_2_if_stmt:
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_6_begin:
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc" 14 2 ]
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_2_if_stmt:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_6_begin:
         %tmp.5 = lgetv %senInfo.1;
         %tmp.7 = const :temperature;
         %tmp.8 = canhazplz %tmp.5 %tmp.7;
         %tmp.9 = dup %tmp.8;
-        bf %tmp.9 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_34_end;
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_34_true:
+        bf %tmp.9 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_34_end;
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_34_true:
         %tmp.10 = lgetv %senInfo.1;
         %tmp.11 = as %tmp.10 { (interface { var temperature; }) };
         %tmp.12 = getv %tmp.11 :temperature;
@@ -48,32 +48,32 @@ C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_temp
         %tmp.14 = ne %tmp.12 %tmp.13;
         %tmp.15 = and %tmp.8 %tmp.14;
         push %tmp.15;
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_34_end:
-        %tmp.16 = phi [%tmp.9 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_6_begin] [%tmp.15 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_34_true] [%tmp.16 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_34_end];
-        bf %tmp.16 @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_2_if_false;
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_2_if_true:
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_63_start:
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc" 15 3 ]
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_34_end:
+        %tmp.16 = phi [%tmp.9 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_6_begin] [%tmp.15 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_34_true] [%tmp.16 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_34_end];
+        bf %tmp.16 @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_2_if_false;
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_2_if_true:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_63_start:
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc" 15 3 ]
         %tmp.17 = getm $.Toybox.Background;
         %tmp.18 = getv function %tmp.17 :exit;
         %tmp.19 = lgetv %senInfo.1;
         %tmp.20 = as %tmp.19 { (interface { var temperature; }) };
         %tmp.21 = getv %tmp.20 :temperature;
         invoke %tmp.17 %tmp.18(%tmp.21);
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_63_stop:
-        goto @C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_2_if_end;
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_2_if_false:
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_16_9_start:
-[ "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc" 17 3 ]
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_63_stop:
+        goto @C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_2_if_end;
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_2_if_false:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_16_9_start:
+[ "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc" 17 3 ]
         %tmp.22 = getm $.Toybox.Background;
         %tmp.23 = getv function %tmp.22 :exit;
         %tmp.24 = null;
         invoke %tmp.22 %tmp.23(%tmp.24);
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_16_9_stop:
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_2_if_end:
-C_Users_Home_Documents_아빠_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_12_36_stop:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_16_9_stop:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_14_2_if_end:
+C_Users_USER_OneDrive_자전거_New_CIQ_AndroidTime_source_tempServiceDelegate_mc_12_36_stop:
     }
 }
-[ @file = "C:\Users\Home\Documents\아빠\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 1; ]
+[ @file = "C:\Users\USER\OneDrive\자전거\New CIQ\AndroidTime\source\tempServiceDelegate.mc"; @line = 1; ]
 <init> {
 }

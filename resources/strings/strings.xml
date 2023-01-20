@@ -1,5 +1,5 @@
 <strings>
-    <string id="AppName">AndroidTime</string>
+    <string id="AppName">Android Time</string>
     <string id="label">Time+Temperature+GPS+Battery</string>
 	<string id="appVersion">App. Version</string>
     <string id="am">A\nM</string>
